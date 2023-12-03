@@ -27,7 +27,7 @@ Instalação
 
  2) Após isso no arquivo `package.json` adicione os seguintes *códigos*:
     
-  {
+  > {
     "scripts": {
     "dev": "next dev",
     "build": "next build",
