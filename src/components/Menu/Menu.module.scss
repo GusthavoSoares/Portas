@@ -1,40 +1,46 @@
 @import './src/styles/+variables.module.scss';
 
-.menu{
-    background:$secundaria;
-     &_navegacao{
-        display:flex;
-        color:$primaria;
-        justify-content:space-between;
+.menu {
+    background: $secundaria;
+
+    &_navegacao {
+        display: flex;
+        color: $primaria;
+        justify-content: space-between;
         align-items: center;
     }
-     &_logo{
-    padding-left:2%;
-     &_texto{
-        text-decoration: none;
-        color:$primaria;
-        font-size: $titulo_tamanho;
-        &:hover{
-            color:$destaque;
-            transition:1s;
-            font-size:1.8rem;
-        }
-     }
-    }
 
-    &_lista{
-        padding-right:2%;
-        text-decoration: none;
-        &_link{
-            text-decoration:none;
-            padding:0.5rem;
-            color:$primaria;
-            &:hover{
+    &_logo {
+        padding-left: 2%;
+
+        &_texto {
+            text-decoration: none;
+            color: $primaria;
+            font-size: $titulo_tamanho;
+
+            &:hover {
+                color: $destaque;
                 transition: 1s;
-                color:$destaque;
-                font-size:1.3rem;
+                font-size: 1.8rem;
             }
         }
-        
-    } 
+    }
+
+    &_lista {
+        padding-right: 2%;
+        text-decoration: none;
+
+        &_link {
+            text-decoration: none;
+            padding: 0.5rem;
+            color: $primaria;
+
+            &:hover {
+                transition: 1s;
+                color: $destaque;
+                font-size: 1.3rem;
+            }
+        }
+
+    }
 }
