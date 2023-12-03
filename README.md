@@ -27,14 +27,18 @@ Instalação
 
  2) Após isso no arquivo `package.json` adicione os seguintes *códigos*:
     
-  > {
+  ```
+
+ {
     "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
     }
-   }    
+  }
+
+  ```
    
  - `dev` = inicia o projeto em ambiente de desenvolvimento
  - `build` = monta o projeto para ambiente de produção (publicar na web)
