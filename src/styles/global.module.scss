@@ -1,0 +1,10 @@
+@import './src/styles/+variables.module.scss';
+
+.corpo{
+    font-family:$texto;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-size:$texto_tamanho;
+    font-weight:normal;
+}

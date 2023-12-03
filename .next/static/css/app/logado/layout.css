@@ -1,0 +1,40 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/Menu/Menu.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Sansita:ital@0;1&display=swap");
+.Menu_menu__rHDaK {
+  background: #77279D;
+}
+.Menu_menu_navegacao__5LU6r {
+  display: flex;
+  color: #5CEA61;
+  justify-content: space-between;
+  align-items: center;
+}
+.Menu_menu_logo__GFrq0 {
+  padding-left: 2%;
+}
+.Menu_menu_logo_texto___u_qD {
+  text-decoration: none;
+  color: #5CEA61;
+  font-size: 1.4rem;
+}
+.Menu_menu_logo_texto___u_qD:hover {
+  color: #B5EB50;
+  transition: 1s;
+  font-size: 1.8rem;
+}
+.Menu_menu_lista__PCrEI {
+  padding-right: 2%;
+  text-decoration: none;
+}
+.Menu_menu_lista_link__Z3bsC {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: #5CEA61;
+}
+.Menu_menu_lista_link__Z3bsC:hover {
+  transition: 1s;
+  color: #B5EB50;
+  font-size: 1.3rem;
+}
