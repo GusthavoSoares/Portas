@@ -9,6 +9,7 @@
   box-sizing: border-box;
   font-size: 1.2rem;
   font-weight: normal;
+  background: #2B289E;
 }
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./node_modules/@fortawesome/fontawesome-svg-core/styles.css ***!

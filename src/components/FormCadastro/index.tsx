@@ -1,21 +1,21 @@
+
 import estilos from './FormCadastro.module.scss'
 import Icone from "../../components/Icone"
-import { faDoorClosed } from '@fortawesome/free-solid-svg-icons'
+import { faDoorClosed, faUser, faKey } from '@fortawesome/free-solid-svg-icons'
+import InputCadastro from '../InputCadastro'
+import Botao from '../Botao'
+
 
 export default function FormCadastro() {
+
+    
     return (
-        <form className={estilos.formulario}>
+        <form className={estilos.formulario} method="post">
             <Icone fig={faDoorClosed} classe={estilos.formulario_icone} />
-            <h1>Portas</h1>
-            <fieldset>
-                <fieldset>
-                    <input type="text" name="usuario" placeholder="Insira seu usuário" />
-                </fieldset>
-                <fieldset>
-                    <input type="password" name="usuario" placeholder="Insira sua senha" />
-                </fieldset>
-                <input type="submit" name="enviar" value="Logar" />
-            </fieldset>
+            <h1 className={estilos.formulario_texto}>Portas</h1>
+            <InputCadastro nome="Login" texto="Insira seu login" tipo="text" obrigatorio={true} icone={true} tipoIcone={faUser} max={20} />
+            <InputCadastro nome="Senha" texto="Insira sua senha" tipo="password" obrigatorio={true} icone={true} tipoIcone={faKey} />
+            <Botao texto="Logar" />
         </form>
     )
 }

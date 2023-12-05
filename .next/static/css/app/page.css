@@ -6,13 +6,99 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 70%);
+  transform: translate(-50%, 30%);
   display: flex;
   flex-direction: column;
+  background: #77279D;
+  width: 500px;
+  padding: 5%;
+  border-radius: 5%;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #5CEA61;
 }
 .FormCadastro_formulario_icone__4Runi {
   color: #77279D;
   font-size: 12rem;
+  background: #5CEA61;
+  border-radius: 100%;
+  padding: 5%;
+  width: 60%;
+}
+.FormCadastro_formulario_texto__xmgGc {
+  color: #5CEA61;
+  font-weight: normal;
+  font-family: "Sansita";
+  font-size: 2.38rem;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/InputCadastro/InputCadastro.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Sansita:ital@0;1&display=swap");
+.InputCadastro_inputBox__Hob7F {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.InputCadastro_inputBox_icone__Gw1Zn {
+  color: #2B289E;
+  font-size: 1.4rem;
+  border: 2px solid #2B289E;
+  padding: 1%;
+  background: #5CEA61;
+}
+.InputCadastro_inputBox_icone__Gw1Zn:hover {
+  background: #2B289E;
+  color: #5CEA61;
+  transition: 1s;
+  font-size: 1.7rem;
+  border: 2px solid #5CEA61;
+}
+
+.InputCadastro_input__1KDE4 {
+  border: 2px solid #2B289E;
+  outline: 0;
+  border-radius: 5%;
+  padding: 2% 3%;
+  margin: 1%;
+  background: #77279D;
+  color: #5CEA61;
+}
+.InputCadastro_input__1KDE4::placeholder {
+  color: #2B289E;
+  font-size: 0.8rem;
+}
+.InputCadastro_input__1KDE4:focus {
+  transition: 1s;
+  border-color: #5CEA61;
+  padding: 2.5%;
+}
+.InputCadastro_input__1KDE4::placeholder {
+  transition: 1s;
+  font-size: 1rem;
+  color: #5CEA61;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/Botao/Botao.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Sansita:ital@0;1&display=swap");
+.Botao_botao__f_dnW {
+  background: #5CEA61;
+  color: #2B289E;
+  border: 0;
+  padding: 10px 20px;
+  width: 50%;
+  margin-top: 2%;
+  border-radius: 5%;
+  font-size: 1rem;
+}
+.Botao_botao__f_dnW:hover {
+  background: #2B289E;
+  color: #5CEA61;
+  padding: 15px;
+  font-size: 1.2rem;
+  transition: 1s;
 }
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./app/general.module.scss ***!

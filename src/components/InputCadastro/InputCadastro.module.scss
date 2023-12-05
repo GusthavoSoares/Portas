@@ -1,0 +1,54 @@
+@import './src/styles/+variables.module.scss';
+
+.inputBox{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    &_icone{
+        color:$tercearia;
+        font-size:1.4rem;
+        border:2px solid $tercearia;
+        padding: 1%;
+        background:$primaria;
+       &:hover{
+        background:$tercearia;
+        color:$primaria;
+        transition:1s;
+        font-size:1.7rem;
+        border:2px solid $primaria;
+       }
+    }
+}
+
+.input{
+    border:2px solid $tercearia;
+    outline:0;
+    border-radius: 5%;
+    padding:2% 3%;
+    margin:1%;
+    background:$secundaria;
+    color:$primaria;
+   
+    &::placeholder{
+        color:$tercearia;
+        font-size:0.80rem;
+    
+    }
+    &:focus{
+        transition:1s;
+        border-color:$primaria;
+        padding:2.5%;
+    }
+    
+    &::placeholder{
+        transition:1s;
+        font-size:1rem;
+        color:$primaria
+    }
+    }
+
+
+
+
