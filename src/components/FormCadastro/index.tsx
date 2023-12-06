@@ -7,8 +7,6 @@ import Botao from '../Botao'
 
 
 export default function FormCadastro() {
-
-    
     return (
         <form className={estilos.formulario} method="post">
             <Icone fig={faDoorClosed} classe={estilos.formulario_icone} />

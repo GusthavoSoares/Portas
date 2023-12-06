@@ -100,6 +100,100 @@
   font-size: 1.2rem;
   transition: 1s;
 }
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/Rodape/Rodape.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Sansita:ital@0;1&display=swap");
+.Rodape_rodapeManeirao__L9KAp {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #77279D;
+  padding: 16px;
+}
+.Rodape_rodapeManeirao__L9KAp .Rodape_divButtons__rQHNv {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.Rodape_rodapeManeirao__L9KAp .Rodape_divButtons__rQHNv button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #3b2047;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  padding: 8px;
+  transition: background-color 0.2s ease;
+}
+.Rodape_rodapeManeirao__L9KAp .Rodape_divButtons__rQHNv button:hover {
+  background-color: #1e1323;
+}
+@media (max-width: 768px) {
+  .Rodape_rodapeManeirao__L9KAp {
+    position: relative;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./app/logado/organizacao/OganizacaoPage.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Sansita:ital@0;1&display=swap");
+.OganizacaoPage_cabecalho__yXSno {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  padding: 46px;
+}
+.OganizacaoPage_cabecalho__yXSno .OganizacaoPage_divButtons__2AbmU {
+  display: flex;
+  gap: 18px;
+}
+
+.OganizacaoPage_divEvents__yRplc {
+  display: flex;
+  justify-content: space-around;
+  padding: 24px;
+}
+.OganizacaoPage_divEvents__yRplc .OganizacaoPage_event__pZxPu {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  transition: all 0.2s ease;
+}
+.OganizacaoPage_divEvents__yRplc .OganizacaoPage_event__pZxPu img {
+  border-radius: 8px;
+}
+.OganizacaoPage_divEvents__yRplc .OganizacaoPage_event__pZxPu:hover {
+  transform: scale(1.05);
+}
+.OganizacaoPage_divEvents__yRplc .OganizacaoPage_divButtonsEvent__fXnGS {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+.OganizacaoPage_divEvents__yRplc .OganizacaoPage_divButtonsEvent__fXnGS button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #77279D;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  padding: 8px;
+  transition: background-color 0.2s ease;
+}
+.OganizacaoPage_divEvents__yRplc .OganizacaoPage_divButtonsEvent__fXnGS button:hover {
+  background-color: #3b2047;
+}
+@media (max-width: 1024px) {
+  .OganizacaoPage_divEvents__yRplc {
+    display: block;
+  }
+  .OganizacaoPage_divEvents__yRplc .OganizacaoPage_event__pZxPu {
+    margin-bottom: 24px;
+  }
+}
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./app/general.module.scss ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/

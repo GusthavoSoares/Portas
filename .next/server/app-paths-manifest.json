@@ -1,3 +1,7 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/logado/organizacao/page": "app/logado/organizacao/page.js",
+  "/logado/eventos/page": "app/logado/eventos/page.js",
+  "/logado/historia/page": "app/logado/historia/page.js",
+  "/logado/principal/page": "app/logado/principal/page.js"
 }
