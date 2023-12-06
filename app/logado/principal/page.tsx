@@ -6,12 +6,6 @@ export default function OrganizacaoPage() {
 
     return (
         <div>
-            <header className={style.cabecalho}>
-                <div className={style.divButtons}>
-                    <Botao texto="Membros" />
-                    <Botao texto="Histórias" />
-                </div>
-            </header>
             <div className={style.divEvents}>
                 <div className={style.event}>
                     <p>Evento próximo: (Horas restantes)</p>
